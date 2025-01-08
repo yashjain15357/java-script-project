@@ -76,8 +76,8 @@ button:hover {
     transform: translateY(-2px); /* Hover lift */
     transform: rotate(2deg);
     
-    border-color: #ff0099;
-    background: linear-gradient(145deg, #6b5cff, #5849e6); /* Dynamic gradient */
+    border-color: #1be10c;
+    background: linear-gradient(145deg, #d76209, #edce06); /* Dynamic gradient */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
 }
 
@@ -88,7 +88,8 @@ button:active {
 
 /* Operator Buttons */
 .operator {
-    background: linear-gradient(145deg, #ff5e3a, #e6452d); /* Vibrant orange */
+
+    background: linear-gradient(145deg, #ff5e3a, #50d512); /* Vibrant orange */
     color: #ffffff;
 }
 
@@ -118,4 +119,43 @@ button:active {
         font-size: 1.8rem;
         padding: 15px;
     }
+}
+img{
+    background-color: transparent;
+    height: 20px;
+    padding: 5px;
+    margin: 10px;
+    filter: brightness(0.8);
+      padding: 5pxpx;
+    border: 2px solid #000000;
+    border-radius: 12px;
+    background: linear-gradient(145deg, #4c4c4c, #3a3a3a);
+}
+.social{
+    height: auto;
+    width: auto;
+    font-size: 1.2rem;
+    font-weight: 60;
+    padding: 3px;
+    border: 2px solid #000000;
+
+    border-radius: 12px;
+    cursor: pointer;
+    background: linear-gradient(145deg, #4c4c4c, #d20808); /* Gradient background */
+    color: #f2f608;
+    transition: transform 0.2s, background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 4px 8px rgba(235, 10, 10, 0.521);
+}
+.social:hover {
+    transform: translateY(-2px); /* Hover lift */
+    transform: rotate(2deg);
+    
+    border-color: #0bef3ceb;
+    background: linear-gradient(145deg, #5a4dca, #38a231); /* Dynamic gradient */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+    transform: translateY(2px); /* Press effect */
+    background: #776dd5; /* Darker pressed state */
 }

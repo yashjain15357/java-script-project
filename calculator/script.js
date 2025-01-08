@@ -104,7 +104,7 @@ document.addEventListener("click", (e) => {
             }
             else {
                 input.value = input.value.slice(0, -1)
-                if(temp.length>0)temp = temp.slice(0, -1); console.log(`temo${temp}`);
+                if(temp.length>0)temp = temp.slice(0, -1);
             }
     }
 })
